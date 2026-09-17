@@ -1,0 +1,19 @@
+# Ambiente virtual — nunca vai para o GitHub.
+# Ele tem centenas de arquivos, é específico desta máquina e é recriado
+# a partir do requirements.txt por quem clonar o projeto.
+venv/
+.venv/
+env/
+
+# Configurações locais do VS Code (contêm caminhos da sua máquina)
+.vscode/
+
+# Cache que o Python gera sozinho ao rodar os scripts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Arquivos de sistema
+Thumbs.db
+desktop.ini
+.DS_Store
